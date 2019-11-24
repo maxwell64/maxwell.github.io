@@ -289,7 +289,7 @@ class Population
       newDots[i] = parent.freshRock();
 
     }
-    dots = newDots.clone();
+    dots = newDots;
     gen ++;
   }
 
