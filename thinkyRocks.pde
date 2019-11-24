@@ -68,7 +68,7 @@ class Brain
     Brain clone = new Brain(directions.length);
     for (int i = 0;i < directions.length;i ++)
     {
-      clone.directions[i] = directions[i].copy();
+      clone.directions[i] = directions[i];
 
     }
 
