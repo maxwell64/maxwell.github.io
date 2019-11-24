@@ -300,7 +300,6 @@ class Population
     {
       fitnessSum += dots[i].fitness;
     }
-    println(fitnessSum);
   }
 
   Dot selectParent()
