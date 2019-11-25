@@ -15,9 +15,6 @@ a:hover{
 h1,h2,h3,h4{
   color: #333
 }
-#footer h4{
-  text-transform: uppercase;
-}
 p{
   line-height: 1.5;
 }
