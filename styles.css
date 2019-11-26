@@ -72,7 +72,7 @@ p{
   display: inline-block;
   vertical-align: top;
 }
-.post,.about{
+.post,.about,.project{
   max-width: 900px;
   margin: 0 auto;
   padding: 60px 0;
