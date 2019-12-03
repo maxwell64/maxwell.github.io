@@ -68,7 +68,7 @@ class Brain
     Brain clone = new Brain(directions.length);
     for (int i = 0;i < directions.length;i ++)
     {
-      clone.directions[i] = directions[i];
+      clone.directions[i] = directions[i].copy();
 
     }
 
@@ -289,7 +289,7 @@ class Population
       newDots[i] = parent.freshRock();
 
     }
-    dots = newDots;
+    dots = newDots.clone();
     gen ++;
   }
 
@@ -300,6 +300,7 @@ class Population
     {
       fitnessSum += dots[i].fitness;
     }
+    println(fitnessSum);
   }
 
   Dot selectParent()
