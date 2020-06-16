@@ -63,7 +63,8 @@ p{
   color: white;
 }
 #climate-graph{
-  padding-left: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 .container{
   max-width: 1000px;
@@ -100,4 +101,9 @@ p{
 }
 .about-author img{
   border-radius: 200px;
+}
+.sticky{
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
