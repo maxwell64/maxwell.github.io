@@ -107,3 +107,6 @@ p{
   top: 0px;
   width: 100%;
 }
+.sticky + #content{
+  padding-top: 102px;
+}
